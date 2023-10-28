@@ -1,0 +1,106 @@
+body{
+    font-family:sans-serif;
+    margin-top: 160px;
+}
+h1{
+    color: rgb(8, 102, 246);
+    font-weight: bold;
+   
+
+}
+input{
+    width: 100%;
+    margin: 5px;
+    padding: 4pt;
+    box-sizing: border-box;
+    
+}
+input:hover{
+    border-color:gray;
+}
+ .btn-logIn:hover
+{ border:2px solid rgb(8, 102, 246) ;
+    background-color: white;
+    color:rgb(8, 102, 246);
+
+}
+.btn-forgotPass:hover
+{ border:2px solid gray ;
+    background-color: white;
+    color:black;
+
+}
+.btn-newAccount:hover
+{ border:1px solid rgb(67, 181, 39) ;
+    background-color: white;
+    color:rgb(67, 181, 39);
+
+}
+
+.div-logo{
+    padding-left: 20%;
+}
+.btn-logIn{
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+    padding: 4px;
+    background-color: rgb(8, 102, 246);
+    border:rgb(8, 102, 246) ;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+.btn-forgotPass{
+    width: 100%;
+    text-align: center;
+    
+    margin: 5px;
+    padding: 4px;
+    background-color: white;
+    border: none;
+   color: rgb(39, 89, 136);
+    
+
+
+
+}
+.btn-newAccount{
+    width: 50%;
+    text-align: center;
+    margin: 5px;
+    margin-left: 90px;
+    padding: 4px;
+    background-color:rgb(67, 181, 39);
+    border-color:rgb(67, 181, 39) ;
+    color: white;
+    border-radius: 5px;
+
+
+
+
+
+}
+
+.border-shadow{
+width: 370px;
+height: 350px;
+background-color: white;
+animation: border-Shadow 20s infinite;
+padding:20px;
+}
+@keyframes border-Shadow {
+    50% { box-shadow:10px 20px 30px gray;}
+}
+@media only screen and (max-width:600px){
+    .div-logo{
+        font-size:small;
+        
+        padding-left: 20px;
+    }
+ .border-shadow{
+     margin-top: 20px;
+ }
+   
+}
